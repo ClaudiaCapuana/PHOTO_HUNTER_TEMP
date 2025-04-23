@@ -7,9 +7,7 @@ include '../app/routers/photos.php';
 
 //Route authors
 elseif (isset ($_GET['authors'])) :
-    include '../app/controllers/authorsController.php';
-\App\Controllers\AuthorsController\indexAction($connexion);
-
+    include '../app/routers/authors.php';
 
 
 else :
